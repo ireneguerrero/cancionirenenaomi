@@ -1,19 +1,46 @@
 body{
-    counter-reset:estrofa section;
-    width:85%;
+    counter-reset: estrofa section;
+    width: 85%;
     margin: 0 auto;
 }
 
-span{
-    color:blue;
-    background-color:yellow;
-    font-weight: bold;
+header {
+    margin: 10px 30%;
+    font-style: italic;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    text-align:center;  
 }
 
 h2{
-    color:black;
+    color: black;
+    text-align: center;
+    font-size: 40px;
 }
 
+
 p{
-    color:blue;
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}
+
+span{
+    background-color: blue;
+    color:yellow;
+    font-weight: bold;
+}
+
+h3::before {
+    counter-increment: estrofa;
+    content: "" counter(estrofa) ": ";
+}
+
+p::before {
+    counter-increment: section; 
+    content: "Verso: " counter(section) ": "; 
+    color: blue;
 }
