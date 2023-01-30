@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?mxl-stylesheet type="text/xsl" href="cancionirenenaomi.xsl"?>
-<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/irene/OneDrive/Escritorio/-/DAW/Lenguajedemarcas/cancionirenenaomi.xsd">
+<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cancionirenenaomi.xsd">
 	<titulo>Si tú te vas</titulo>
 	<autor>Khaled</autor>
 	<letras>
