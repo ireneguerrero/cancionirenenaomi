@@ -1,11 +1,19 @@
+body{
+    counter-reset:estrofa section;
+    width:85%;
+    margin: 0 auto;
+}
+
 span{
-color:blue;
-background-color:yellow;
-font-weight: bold;
+    color:blue;
+    background-color:yellow;
+    font-weight: bold;
 }
+
 h2{
-color:black;
+    color:black;
 }
+
 p{
-color:blue;
+    color:blue;
 }

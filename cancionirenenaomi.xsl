@@ -6,21 +6,20 @@
 				<link rel="stylesheet" type="text/css" href="cancionirenenaomi.css" />
 			</head>
 			<body>
-				<span>Canción</span>
+				<h1> <xsl:value-of select="cancion/titulo"></xsl:value-of></h1>
 				<h2>
-					<xsl:value-of select="cancion/titulo"/>
+					<xsl:value-of select="cancion/autor"></xsl:value-of>
 				</h2>
-				<h2>
-					<xsl:value-of select="cancion/autor"/>
-				</h2>
-				<xsl:for-each select="cancion/letra/estrofa">
-				<div class="estrofa">
-					<xsl:for-each select="letra/verso">
-						<p class="verso">
-							<xsl:value-of select="."/>
+
+				<xsl:for-each select="cancion/estrofa">
+					<h2>Estrofa</h2>
+						<xsl:for-each select="verso">
+						<span>
+						<p>
+						<xsl:value-of select="."/>
 						</p>
-					</xsl:for-each>
-				</div>
+						</span>
+						</xsl:for-each>
 				</xsl:for-each>
 			</body>
 		</html>
