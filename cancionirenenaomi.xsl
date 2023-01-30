@@ -6,7 +6,7 @@
 				<link rel="stylesheet" type="text/css" href="cancionirenenaomi.css" />
 			</head>
 			<body>
-				<h1>Canción</h1>
+				<span>Canción</span>
 				<h2>
 					<xsl:value-of select="cancion/titulo"/>
 				</h2>
